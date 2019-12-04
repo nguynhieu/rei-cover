@@ -6,6 +6,8 @@
 	box-sizing: border-box;
 }
 
+
+
 body {
 	width: 100%;
 	height: 100%;
@@ -174,6 +176,13 @@ body {
 	color: #a1c900;
 }
 
+.cart::before {
+	position: relative;
+	content: "CART";
+	font-size: 14px;
+	font-family: Roboto,"Helvetica Neue",Helvetica,Arial,sans-serif
+}
+
 .site-action .action-user .nav-action li a {
 	color: #fff;
 	text-decoration: none;
@@ -187,6 +196,17 @@ body {
 
 .site-action .action-user .nav-action li i {
 	font-size: 18px;
+}
+
+#menu-toggle {
+	display: none;
+}
+
+#menu-toggle:after {
+	content: "\f0c9";
+	font-family: "Font Awesome 5 Free";
+	font-weight: 900;
+	font-size: 25px;
 }
 
 /*=================  site-nav-action ============================*/

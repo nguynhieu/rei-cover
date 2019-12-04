@@ -1,0 +1,85 @@
+@media (max-width: 992px) {
+	.container {
+		padding: 0 20px;
+	}
+
+	.site-header-wrap {
+		padding: 16px 20px;
+	}
+
+	.site-header-inner {
+		height: 63px;
+	}
+
+	.site-action {
+		margin-left: 30px;
+	}
+		
+	.site-logo,
+	.site-logo img {
+		height: 63px;
+		width: 100px;
+	}
+
+
+	.site-nav-action,
+	.stores,
+	.sign-in {
+		display: none;
+	}
+
+	#menu-toggle {
+		display: block;
+		margin-left: 30px;
+	}
+	
+	.site-action {
+		display: flex;
+		align-items: center;
+	}
+
+	.site-header-action {
+		width: 100%;
+	}
+	.action-search {
+		width: 100% !important;
+	}
+
+	.cart::before {
+		content: '';
+	}
+}
+
+
+@media (max-width: 768px) {
+	.site-logo,
+	.site-logo img {
+		width: 68px;
+		height: 43px;
+		margin: 0;
+	}
+
+	.site-header-inner {
+		display: flex;
+		height: 100px;
+		flex-direction: column;
+	}
+
+	.site-header-inner .site-action,
+	.site-action .site-header-action {
+		margin: 0;
+		position: relative;
+		width: 100%;
+	}
+
+	.action-search {
+		width: 100%;
+		padding: 0 !important;
+	}
+
+	.action-user {
+		position: absolute !important;
+		top: -100%;
+		right: 5px;
+	}
+}

@@ -1,0 +1,117 @@
+a#close-menu-lv2 {
+	float: right;
+	color: #000;
+	margin-top: 10px;
+	font-size: 22px;
+}
+
+.nav-lv2-wrapper {
+	padding: 16px 20px;
+	position: absolute;
+	top: 100%;
+	background: #efeee2;
+	width: 100%;
+	margin-top: 23px;
+	left: 0;
+}
+
+.nav-lv2-header {
+	width: 100%;
+	height: 40px;
+	margin-bottom: 30px;
+	text-align: center;
+	font-size: 30px;
+	color: #000;
+	font-weight: bold;
+}
+
+.nav-lv2-content {
+	width: 100%;
+	display: grid;
+	grid-template-columns: repeat(6, 1fr);
+}
+
+.nav-lv2 {
+	padding: 0 10px 16px;
+	list-style: none;
+}
+
+.nav-lv2 li > a{
+	text-decoration: none;
+	font-size: 15px;
+	color: #000 !important;
+	display: block;
+	margin-bottom: 5px;
+	font-weight: bold;
+}
+
+.nav-lv3 li {
+	list-style: none;
+	padding: 5px 0;
+}
+
+.nav-lv3 li {
+	text-decoration: none;
+	font-size: 13px;
+	color: #333;
+}
+
+
+
+.extra {
+	margin-left: 30px;
+	border-left: 1px solid #ddd;
+	grid-row: 1 / 10;
+	grid-column: 5 / 7;
+	width: auto;
+}
+
+.extra-img,
+.extra-img img {
+	width: 100%;
+}
+
+.extra-content {
+	padding: 20px;
+}
+
+
+.extra-content .extra-list-text li {
+	list-style: none;
+	color: #000;
+	font: 16px stuart-2019,Sentinel,Georgia,serif;
+	font-weight: bold;
+	margin-bottom: 10px;
+} 
+
+.extra-content .extra-list-icon {
+	margin-top: 20px;
+	padding-top: 20px;	
+}
+
+.extra-content .extra-list-icon li {
+	color: #004e00;
+	list-style: none;
+	display: block;
+	height: 50px;
+	margin-bottom: 20px;
+}
+
+.extra-content .extra-list-icon li span {
+	float: left;
+	width: 60px;
+}
+
+.extra-content .extra-list-icon li i {
+	font-size: 40px;
+	margin-right: 10px;
+}
+
+.extra-content .extra-list-icon li div{ 
+	float: left;
+}
+
+.extra-content .extra-list-icon li p {
+	font-size: 14px;
+	font-weight: bold;
+}

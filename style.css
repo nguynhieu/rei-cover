@@ -12,14 +12,13 @@ a {
 
 body {
 	width: 100%;
-	min-height: 1000px;
 	font-family: Roboto,"Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
 .wrapper {
 	width: 100%;
 	overflow: hidden;
-	min-height: 100vh;
+	min-height: 300vh;
 }
 
 .overlay {
@@ -31,6 +30,10 @@ body {
 	background: rgba(0,0,0,.5);
 	z-index: 999;
 	visibility: hidden;
+}
+
+.overlay-toggle {	
+	visibility: visible;
 }
 
 .header {
@@ -78,7 +81,6 @@ body {
 	margin:0 auto;
 	padding: 19px 30px 20px;
 	background: #000;
-	position: relative;
 
 }
 
@@ -110,13 +112,11 @@ body {
 	margin-left: 188px;
 	width: auto;
 	height: 100%;
-	position: relative;
 }
 
 .site-header-action {
 	display: flex;
 	justify-content: space-between;
-	position: relative;
 	height: 46px;
 }
 
@@ -177,7 +177,6 @@ body {
 	display: flex;
 	justify-content: flex-end;
 	align-items: center;
-	position: relative;
 	height: 100%;
 }
 
@@ -249,7 +248,7 @@ body {
 	color: #a1c900;
 }
 
-.site-nav-action .items .item a {
+.site-nav-action nav.items .item a {
 	text-decoration: none;
 	color: #fff;
 }
@@ -302,4 +301,6 @@ body {
 	font-size: 20px;
 	line-height: 40px;
 }
+
+/*======================================== nav-lv2 =======================*/
 

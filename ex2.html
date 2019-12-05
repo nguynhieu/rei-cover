@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+</head>
+<style>
+	
+	body {
+	  margin: 0;
+	  padding: 0;
+	  height: 200vh;
+	}
+.menu-left {
+  width: 90%;
+  position: fixed;
+  right: 0;
+  top: 5%;
+  height: 90vh;width: 100%;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  right: -100%;
+  background: #999;
+}
+
+
+.active {
+  right: 0 !important;
+  z-index: 999;
+}
+
+.menu-left .items li {
+  width: 100%;
+  display: block;
+  text-align: center;
+  height: 100px;
+  font-size: 30px;
+  line-height: 100px;
+}
+
+#menu-toggle {
+  float: right;
+  padding: 20px;
+  margin: 20px;
+  font-weight: bold;
+  border: 1px solid #000;
+  cursor: pointer;
+  z-index: 1000;
+}
+</style>
+
+<body>
+	
+<button id="menu-toggle">SHOW</button>
+  <div class="menu-left">
+    <ul class="items">
+      <li>Home</li>
+      <li>About</li>
+      <li>Contact</li>
+      <li>Help</li>
+    </ul>
+  </div>
+
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta laboriosam molestiae, culpa, nostrum ab qui neque voluptatibus quidem saepe illum nobis aliquam esse ad ratione. Ab laborum, mollitia sed saepe dolores eveniet ad excepturi provident ex quos labore commodi dolore suscipit. Animi hic est illum laborum libero. Commodi, deserunt? In ab minima temporibus expedita doloribus culpa aperiam blanditiis tempora omnis, porro harum iure similique natus nostrum reiciendis veniam non vel adipisci maxime a voluptates! Neque deserunt expedita harum iste reiciendis odit tenetur, iure distinctio praesentium ullam eaque laboriosam alias inventore nesciunt dolores sit facilis recusandae magni, officiis. Ab dicta maxime provident, saepe magni odit illo repudiandae repellendus soluta suscipit eos pariatur, corporis debitis! Temporibus expedita, nam quis minima quia quam esse dolores quod, quasi, accusamus saepe. Quisquam vel porro maiores nesciunt cumque! Eius animi possimus porro corporis officia facere ipsa. Magnam, deserunt, at! Tenetur doloribus quis sint id aspernatur quam tempore ea nisi laborum soluta cumque harum dolore fugit rerum voluptatem maiores, dolores et laudantium repudiandae! Quasi perferendis neque quam reiciendis exercitationem distinctio minima quibusdam architecto similique unde odit nostrum consequatur necessitatibus doloremque inventore vitae deserunt, placeat rem. Explicabo ex quae alias aut illum, reiciendis quidem deleniti magni minima neque delectus iusto totam velit veritatis, necessitatibus maxime, unde sapiente a suscipit? Saepe, quod officia! Debitis odit aspernatur esse cupiditate exercitationem libero nulla voluptatem dolor minus tempore enim ducimus consequuntur quidem ab, quo, et dolorum, totam numquam eligendi praesentium, similique quam fugit. Ipsum suscipit voluptate velit! Voluptatem fugit mollitia quasi optio aliquam ipsam rerum ea iure laudantium qui autem tempora expedita, eum sunt, quidem neque! Delectus fuga animi sint. Alias accusantium deleniti non delectus ad accusamus quam, assumenda obcaecati magnam quisquam eius, voluptatum ipsam quis vero laudantium impedit, sunt reiciendis commodi quos officia! Error perferendis enim laboriosam quod quidem! Magni, quod!</p>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script type="text/javascript">
+	$(document).ready(function() {
+	   $("#menu-toggle").click(function() {
+	     $("div").toggleClass("active");
+	   })
+	});
+</script>
+</body>
+</html>

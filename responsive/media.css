@@ -68,14 +68,7 @@
 		z-index: 1000;
 	}
 
-	.active {
-		right: 0;
-	}
-
-	.close {
-		right: -100%;
-		transition: .3s;
-	}
+	
 
 	.site-nav-action nav.items {
 		display: flex;

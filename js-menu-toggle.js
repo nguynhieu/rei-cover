@@ -14,7 +14,10 @@ $(document).ready(function () {
 
 
 $(document).ready(function () {
-	$("#close-menu-lv2").click(function() {
-		$(".nav-lv2-wrapper").addClass("display-none");
+	$("nav.items .item").click(function() {
+		$(this).toggleClass("active-block").siblings().removeClass("active-block");
 	});
-})
+});
+
+
+

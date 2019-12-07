@@ -6,13 +6,16 @@ a#close-menu-lv2 {
 }
 
 .nav-lv2-wrapper {
-	padding: 16px 20px;
 	position: absolute;
+	padding: 16px 20px;
+	margin-top: 23px;
+	color: #000;
+	left: 0;
 	top: 100%;
 	background: #efeee2;
 	width: 100%;
-	margin-top: 23px;
-	left: 0;
+	z-index: 1003;
+	display: none;
 }
 
 .nav-lv2-header {
@@ -20,7 +23,7 @@ a#close-menu-lv2 {
 	height: 40px;
 	margin-bottom: 30px;
 	text-align: center;
-	font-size: 30px;
+	font-size: 30px;	
 	color: #000;
 	font-weight: bold;
 }
@@ -114,4 +117,11 @@ a#close-menu-lv2 {
 .extra-content .extra-list-icon li p {
 	font-size: 14px;
 	font-weight: bold;
+}
+
+
+/*=============== li active =================*/
+
+nav.items .item.active-block .nav-lv2-wrapper {
+	display: block;
 }

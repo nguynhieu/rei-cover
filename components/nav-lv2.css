@@ -40,7 +40,13 @@ nav.items .item .nav-lv2-wrapper .close-menu-lv2 {
 .nav-lv2 {
 	padding: 0 10px 16px;
 	list-style: none;
+	font-weight: bold;
+	cursor: pointer;
 }
+
+.nav-lv2 li:hover > a {
+	text-decoration: underline !important;
+} 
 
 .nav-lv2 li > a{
 	text-decoration: none;
@@ -60,6 +66,10 @@ nav.items .item .nav-lv2-wrapper .close-menu-lv2 {
 	text-decoration: none;
 	font-size: 13px;
 	color: #333;
+}
+
+.nav-lv3 li:hover {
+	text-decoration: underline;
 }
 
 
@@ -125,6 +135,4 @@ nav.items .item .nav-lv2-wrapper .close-menu-lv2 {
 
 /*=============== li active =================*/
 
-nav.items .item.active-block .nav-lv2-wrapper {
-	display: block;
-}
+

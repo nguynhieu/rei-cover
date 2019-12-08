@@ -1,8 +1,11 @@
-a#close-menu-lv2 {
+nav.items .item .nav-lv2-wrapper .close-menu-lv2 {
 	float: right;
 	color: #000;
 	margin-top: 10px;
 	font-size: 22px;
+	cursor: pointer;
+	padding: 6px 8px;
+	border-radius: 50%;
 }
 
 .nav-lv2-wrapper {

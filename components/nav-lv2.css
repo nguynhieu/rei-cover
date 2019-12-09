@@ -56,6 +56,10 @@ nav.items .item .nav-lv2-wrapper .close-menu-lv2 {
 	margin-bottom: 5px;
 	font-weight: bold;
 }
+nav.items .item > a {
+	position: relative;
+	display: block;
+}
 
 .nav-lv3 li {
 	list-style: none;

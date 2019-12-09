@@ -1,0 +1,10 @@
+@media (max-width: 922px) {
+	.container-fluid {
+		padding: 10px;
+	}
+
+	.container-fluid .inner-container-fluid .content {
+		width: 100% !important;
+		padding: 0 20px;
+	}
+}

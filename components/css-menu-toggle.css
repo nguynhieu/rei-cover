@@ -11,6 +11,10 @@
 	display: none;
 }
 
+nav.items .item.active-block > a {
+	color: #a1c900;
+}
+
 nav.items .item.active-block .nav-lv2-wrapper {
 	display: block;
 }

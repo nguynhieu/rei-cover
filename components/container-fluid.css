@@ -1,0 +1,74 @@
+.container-fluid {
+	position: relative;
+	padding: 30px;
+	width: 100%;
+	height: 500px;
+	background: url('../image/container-fluid.jpg');
+	background-repeat: no-repeat;
+	background-size: cover; 
+	background-position: center;
+}
+
+.container-fluid .inner-container-fluid  {
+	width: 100%;
+	height: 100%;
+	max-height: 500px;
+}
+
+.overlay-fluid {
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	background: rgba(0,0,0,.3);
+	z-index: 1;
+}
+
+.container-fluid .inner-container-fluid .hotpost-banner {
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	z-index: 2;
+}
+
+.container-fluid .inner-container-fluid .content {
+	width: auto;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	color: #fff;
+	z-index: 2;
+	text-align: center;
+}
+
+.container-fluid .inner-container-fluid .content h2 {
+	font-size: 40px;
+	font-weight: 400;
+	font-family: 'Roboto Slab', serif, 'Roboto Mono', monospace, sans-serif;
+	letter-spacing: 2px;
+	margin-bottom: 10px;
+}
+
+.container-fluid .inner-container-fluid .content p {
+	margin-bottom: 10px;
+}
+
+.container-fluid .inner-container-fluid .content a {
+	position: relative;
+	top: 30px;
+	padding: 15px 25px;
+	text-decoration: none;
+	color: #fff;
+	background: #c00;
+	border: 1px solid #fff;
+}
+
+.container-fluid .inner-container-fluid .content a:hover {
+	background: #C13F3F;
+}
+
+

@@ -1,0 +1,17 @@
+@media (max-width: 768px) {
+	.sign-up-event .inner-this {
+		position: relative;
+	}
+
+	.sign-up-event .inner-this .input-this {
+		width: 100% !important;
+	}
+
+	.sign-up-event .inner-this .input-this input {
+		width: 100% !important;
+		margin-bottom: 10px;
+	}
+	.sign-up-event .inner-this .input-this button {
+		width: 100% !important;
+	}
+}

@@ -333,14 +333,14 @@ body {
 /*======================== page-content ========================*/
 
 .line-below-page-content {
-	margin: 30px;
+	margin: 0 30px 30px 30px;
 }
 
 /*======================== footer-feedback ========================*/
 
 .footer-feedback {
 	width: 100%;
-	padding: 30px;
+	padding: 20px;
 	position: relative;
 }
 
@@ -371,8 +371,12 @@ body {
 }
 
 
+/*==========================*/
 
-
+.footer-diffrence-banner {
+	padding: 0 10px;
+	overflow: hidden;
+}
 
 
 

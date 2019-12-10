@@ -66,12 +66,12 @@
 	.site-nav-action {
 		overflow-x: hidden;
 		overflow-y: auto;
-		position: absolute;
+		position: fixed;
 		width: 320px;
 		height: 100vh;
 		background: #000;
-		right: -340px;
-		top: -50px;	
+		right: -330px;
+		top: 0;	
 		transition: 0.3s;
 		margin: 0;
 		border: none;
@@ -154,9 +154,6 @@
 		padding: 0 !important;
 	}
 
-	.site-nav-action {
-		top: -100px;
-	}
 
 	.action-user {
 		position: absolute !important;

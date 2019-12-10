@@ -55,5 +55,5 @@
 	color: #fff;
 }
 .clear-float {
-    clear: left;
+    clear: both;
 }
